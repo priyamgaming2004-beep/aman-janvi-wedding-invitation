@@ -22,7 +22,7 @@ body.locked{overflow:hidden}.grain{position:fixed;inset:0;pointer-events:none;z-
 .hero__photo{
   position:absolute;
   inset:0;
-  background-image:url("assets/images/journey-01.webp");
+  background-image:url("journey-01.webp");
   background-size:cover;
   background-position:center center;
   transform:scale(1.01);
