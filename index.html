@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071f1a">
+  <meta name="description" content="Aman & Janvi — 01 & 02 December 2026, M.G. Greens Resort, Chandausi, Badaun.">
+  <title>Aman & Janvi | 01 & 02 December 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="languageGate" class="language-gate" aria-label="Choose language">
+    <div class="language-gate__inner">
+      <div class="preloader__ornament">✦</div>
+      <div class="monogram">A <span>|</span> J</div>
+      <p class="language-gate__title">आपका स्वागत है / Welcome</p>
+      <p class="language-gate__sub">Choose your language / अपनी भाषा चुनें</p>
+      <div class="language-options">
+        <button class="language-btn" data-lang="hi">हिंदी</button>
+        <button class="language-btn" data-lang="en">English</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="preloader" class="preloader hide-preloader" aria-label="Opening invitation">
+    <div class="preloader__ornament">✦</div>
+    <div class="monogram">A <span>|</span> J</div>
+    <p data-i18n="preloaderText">Two hearts. One beautiful journey.</p>
+    <button id="enterBtn" class="gold-btn" data-i18n="openInvitation">Open Invitation</button>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="petals" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#home" class="nav__brand">A <span>|</span> J</a>
+    <nav>
+      <a href="#story" data-i18n="navStory">Our Story</a>
+      <a href="#events" data-i18n="navEvents">Events</a>
+      <a href="#venue" data-i18n="navVenue">Venue</a>
+      <a href="#family" data-i18n="navFamily">Our Family</a>
+      <a href="#gallery" data-i18n="navGallery">Gallery</a>
+    </nav>
+    <div class="nav-actions"><button id="languageToggle" class="lang-toggle" type="button" aria-label="Change language">हिंदी</button><a class="nav__hashtag" href="#rsvp">#AmanWedsJanvi</a></div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-dark">
+      <div class="hero__photo" aria-hidden="true"></div>
+      <div class="hero__veil" aria-hidden="true"></div>
+
+      <div class="hero__content reveal">
+        <div class="ganesh">ॐ</div>
+        <div class="eyebrow" data-i18n="heroEyebrow">You are cordially invited to celebrate our wedding</div>
+        <h1>Aman <span>&amp;</span> Janvi</h1>
+        <div class="hero__date" data-i18n="heroDate">01 &amp; 02 DECEMBER 2026</div>
+        <div class="hero__venue">M.G. Greens Resort<br><small data-i18n="heroLocation">Chandausi, Badaun</small></div>
+        <a href="#story" class="scroll-cue">
+          <span data-i18n="scrollCue">Scroll down to begin our story</span>
+          <span>↓</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="floral-corner floral-corner--left">❧</div>
+      <p data-i18n="quote">“Some love stories feel like destiny.”</p>
+      <div class="floral-corner floral-corner--right">❧</div>
+    </section>
+
+    <section id="story" class="story section-light">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="storyEyebrow">OUR STORY</span>
+        <h2><span data-i18n="storyTitle1">From a thousand little moments</span><br><em data-i18n="storyTitle2">to one beautiful forever.</em></h2>
+      </div>
+
+      <div class="story-grid">
+        <figure class="story-card story-card--large reveal">
+          <img src="assets/images/journey-03.webp" alt="Aman and Janvi together" loading="lazy">
+          <figcaption data-i18n="storyCaption">It was always about finding joy in the ordinary.</figcaption>
+        </figure>
+        <div class="story-copy reveal">
+          <div class="roman">I</div>
+          <p data-i18n="storyP1">Somewhere between laughter, adventures, quiet conversations and countless memories, two lives began to feel like one story.</p>
+          <p data-i18n="storyP2">And now, we're turning the page to our favourite chapter yet.</p>
+        </div>
+        <figure class="story-card story-card--small reveal">
+          <img src="assets/images/journey-02.webp" alt="Aman and Janvi enjoying a celebration" loading="lazy">
+        </figure>
+      </div>
+
+      <div class="story-panorama reveal">
+        <img src="assets/images/journey-10.webp" alt="Aman and Janvi on the grass" loading="lazy">
+        <div class="story-panorama__text">
+          <span data-i18n="nextChapter">THE NEXT CHAPTER</span>
+          <strong data-i18n="beginsForever">Begins with forever.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="countdown section-cream">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="countdownEyebrow">COUNTDOWN TO OUR FOREVER</span>
+        <h2 data-i18n="countdownTitle">The wait is almost over.</h2>
+      </div>
+      <div id="countdown" class="countdown__grid reveal">
+        <div><strong id="days">00</strong><span data-i18n="days">Days</span></div>
+        <div><strong id="hours">00</strong><span data-i18n="hours">Hours</span></div>
+        <div><strong id="minutes">00</strong><span data-i18n="minutes">Minutes</span></div>
+        <div><strong id="seconds">00</strong><span data-i18n="seconds">Seconds</span></div>
+      </div>
+    </section>
+
+    <section id="events" class="events section-dark">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="weddingEyebrow">THE WEDDING</span>
+        <h2><span data-i18n="weddingTitle1">A celebration of</span><br><em data-i18n="weddingTitle2">love, rituals &amp; togetherness.</em></h2>
+      </div>
+
+      <div class="events__days events__days--custom">
+        <article class="day reveal">
+          <div class="day__head">
+            <span>01</span>
+            <div><small data-i18n="tuesday">TUESDAY</small><h3>DECEMBER 2026</h3></div>
+          </div>
+          <div class="timeline">
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Bhaat">Bhaat</b><small>11:00 AM onwards</small></div></div>
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Sangeet">Sangeet</b><small>5:00 PM – 9:00 PM</small></div></div>
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Ghud_Chadhi">Ghud Chadhi</b><small>9:00 PM – 10:00 PM</small></div></div>
+          </div>
+        </article>
+
+        <article class="day reveal">
+          <div class="day__head">
+            <span>02</span>
+            <div><small data-i18n="wednesday">WEDNESDAY</small><h3>DECEMBER 2026</h3></div>
+          </div>
+          <div class="timeline">
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Haldi">Haldi</b><small>10:00 AM – 1:00 PM</small></div></div>
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Nikrosi">Nikrosi</b><small>3:00 PM – 4:00 PM</small></div></div>
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Khet_Lagun">Khet Lagun</b><small>5:00 PM – 6:00 PM</small></div></div>
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Baraat">Baraat</b><small>7:00 PM – 8:00 PM</small></div></div>
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Jaymala">Jaymala</b><small>9:00 PM – 10:00 PM</small></div></div>
+            <div class="event-row"><i>✦</i><div><b data-i18n="event_Vidaai">Vidaai</b><small>4:00 AM</small></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="venue" class="venue section-light">
+      <div class="venue__copy reveal">
+        <span class="eyebrow" data-i18n="venueEyebrow">WHERE WE SAY “I DO”</span>
+        <h2>M.G. Greens<br><em>Resort</em></h2>
+        <p data-i18n="venueLocation">Chandausi, Badaun, Uttar Pradesh</p>
+        <a class="gold-btn" href="https://maps.app.goo.gl/AJzV6eoeEG96jUpGA" target="_blank" rel="noopener" data-i18n="openMaps">Open in Google Maps ↗</a>
+      </div>
+      <div class="venue__visual reveal">
+        <div class="map-card">
+          <div class="map-grid"></div>
+          <div class="map-pin">♥</div>
+          <div class="map-label">M.G. Greens Resort</div>
+          <div class="map-road r1"></div><div class="map-road r2"></div><div class="map-road r3"></div>
+          <a href="https://maps.app.goo.gl/AJzV6eoeEG96jUpGA" target="_blank" rel="noopener" data-i18n="openMaps">Open Google Maps ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="family" class="family section-green">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="familyEyebrow">OUR FAMILY</span>
+        <h2><span data-i18n="familyTitle1">Surrounded by the people</span><br><em data-i18n="familyTitle2">who make every moment special.</em></h2>
+      </div>
+
+      <div class="family-layout family-layout--new">
+        <article class="family-card family-card--elders reveal">
+          <div class="family-card__ornament">♥</div>
+          <span class="family-card__label" data-i18n="familyBlessing">WITH THEIR BLESSINGS</span>
+          <h3 data-i18n="grandparents">Grand Father &amp; Grand Mother</h3>
+          <div class="family-card__names">
+            <strong data-name-en="Ramotar Varshney" data-name-hi="रामोतर वार्ष्णेय">Ramotar Varshney</strong>
+            <strong data-name-en="Late Anita Varshney" data-name-hi="स्वर्गीय अनीता वार्ष्णेय">Late Anita Varshney</strong>
+            <strong data-name-en="Puran Varshney" data-name-hi="पूरन वार्ष्णेय">Puran Varshney</strong>
+            <strong data-name-en="Baby" data-name-hi="बेबी">Baby</strong>
+          </div>
+        </article>
+
+        <article class="family-card family-card--parents reveal">
+          <div class="family-card__top">
+            <span class="family-card__label" data-i18n="familyParents">FAMILY &amp; LOVED ONES</span>
+            <span class="family-card__mark">02</span>
+          </div>
+          <div class="family-people family-people--grid">
+            <div><b data-name-en="Sanjeev Varshney" data-name-hi="संजीव वार्ष्णेय">Sanjeev Varshney</b><span data-role-en="Papa" data-role-hi="पापा"</span></div>
+            <div><b data-name-en="Seema Varshney" data-name-hi="सीमा वार्ष्णेय">Seema Varshney</b><span data-role-en="Mummy" data-role-hi="मम्मी"</span></div>
+            <div><b data-name-en="Ranjeet Varshney" data-name-hi="रंजीत वार्ष्णेय">Ranjeet Varshney</b><span data-role-en="Chacha" data-role-hi="चाचा"</span></div>
+            <div><b data-name-en="Rashmi Varshney" data-name-hi="रश्मि वार्ष्णेय">Rashmi Varshney</b><span data-role-en="Chachi" data-role-hi="चाची"</span></div>
+            <div><b data-name-en="Vineet Varshney" data-name-hi="विनीत वार्ष्णेय">Vineet Varshney</b><span>Chacha</span></div>
+            <div><b data-name-en="Deepti Varshney" data-name-hi="दीप्ति वार्ष्णेय">Deepti Varshney</b><span>Chachi</span></div>
+            <div><b data-name-en="Rumil Gupta" data-name-hi="रुमिल गुप्ता">Rumil Gupta</b><span data-role-en="Fufaji" data-role-hi="फूफाजी"</span></div>
+            <div><b data-name-en="Gunjan Varshney" data-name-hi="गुंजन वार्ष्णेय">Gunjan Varshney</b><span data-role-en="Bua" data-role-hi="बुआ"</span></div>
+            <div><b data-name-en="Rahul Varshney" data-name-hi="राहुल वार्ष्णेय">Rahul Varshney</b><span>Fufaji</span></div>
+            <div><b data-name-en="Mridula Varshney" data-name-hi="मृदुला वार्ष्णेय">Mridula Varshney</b><span>Bua</span></div>
+            <div><b data-name-en="Shubham Varshney" data-name-hi="शुभम वार्ष्णेय">Shubham Varshney</b><span data-role-en="Bhaiya" data-role-hi="भैया"</span></div>
+            <div><b data-name-en="Megha Varshney" data-name-hi="मेघा वार्ष्णेय">Megha Varshney</b><span data-role-en="Bhabhi" data-role-hi="भाभी">Bhabhi</span></div>
+          </div>
+        </article>
+
+        <article class="family-card family-card--circle reveal">
+          <div class="family-card__top">
+            <span class="family-card__label" data-i18n="familyCircle">OUR CIRCLE</span>
+            <span class="family-card__mark">03</span>
+          </div>
+          <div class="family-names-cloud">
+            <span data-name-en="Raj Kumar" data-name-hi="राज कुमार">Raj Kumar</span><span data-name-en="Vijay Kumar" data-name-hi="विजय कुमार">Vijay Kumar</span><span data-name-en="Kamal Kumar" data-name-hi="कमल कुमार">Kamal Kumar</span>
+            <span data-name-en="Rajat Varshney" data-name-hi="रजत वार्ष्णेय">Rajat Varshney</span><span data-name-en="Shrajal Varshney" data-name-hi="श्रजल वार्ष्णेय">Shrajal Varshney</span><span data-name-en="Keshul" data-name-hi="केशुल">Keshul</span>
+            <span data-name-en="Samarth" data-name-hi="समर्थ">Samarth</span><span data-name-en="Manya" data-name-hi="मान्या">Manya</span><span data-name-en="Navya" data-name-hi="नव्या">Navya</span><span data-name-en="Vidhaan" data-name-hi="विधान">Vidhaan</span>
+            <span data-name-en="Krishiv" data-name-hi="कृषिव">Krishiv</span><span data-name-en="Harshiv" data-name-hi="हर्षिव">Harshiv</span><span data-name-en="Ujjawal" data-name-hi="उज्ज्वल">Ujjawal</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery section-cream">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="galleryEyebrow">OUR JOURNEY</span>
+        <h2><span data-i18n="galleryTitle1">A few moments</span><br><em data-i18n="galleryTitle2">from our story.</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="g g1 reveal"><img src="assets/images/journey-01.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g2 reveal"><img src="assets/images/journey-02.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g3 reveal"><img src="assets/images/journey-03.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g4 reveal"><img src="assets/images/journey-04.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g5 reveal"><img src="assets/images/journey-05.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g6 reveal"><img src="assets/images/journey-06.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g7 reveal"><img src="assets/images/journey-07.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g8 reveal"><img src="assets/images/journey-08.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g9 reveal"><img src="assets/images/journey-09.webp" alt="Aman and Janvi" loading="lazy"></figure>
+        <figure class="g g10 reveal"><img src="assets/images/journey-10.webp" alt="Aman and Janvi" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section id="rsvp" class="closing section-dark">
+      <div class="closing__photo"></div>
+      <div class="closing__veil"></div>
+      <div class="closing__content reveal">
+        <div class="monogram">A <span>|</span> J</div>
+        <span class="eyebrow" data-i18n="closingEyebrow">THE BEGINNING OF FOREVER</span>
+        <h2><span data-i18n="closingTitle1">We can't wait</span><br><span data-i18n="closingTitle2">to celebrate with you.</span></h2>
+        <p><span data-i18n="closingDate">01 &amp; 02 December 2026</span><br>M.G. Greens Resort, Chandausi</p>
+        <a class="gold-btn" href="https://maps.app.goo.gl/AJzV6eoeEG96jUpGA" target="_blank" rel="noopener" data-i18n="findVenue">Find the Venue ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <button id="musicToggle" class="music-toggle" aria-label="Toggle music" title="Add assets/music/wedding-song.mp3 to enable music">
+    <span>♪</span><i></i>
+  </button>
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/music/wedding-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lightboxClose" aria-label="Close">×</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
