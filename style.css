@@ -253,6 +253,29 @@ section{position:relative}.story,.events,.family,.gallery,.venue,.countdown{padd
   align-self:center !important;
   display:block !important;
 }
+@media(max-width: 400px){
+  .hero{
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:flex-end !important;
+  }
+  .hero__photo{
+    inset:0 !important;
+    width:152% !important;
+    height:100% !important;
+    background-position:right center !important;
+  }
+  .hero__veil{
+    background:
+      linear-gradient(180deg,
+        transparent 0%,
+        #06130f10 38%,
+        #06130fce 76%,
+        #06130f 100%
+      ) !important;
+  }
+}
+
 @media(max-width:900px){
   .hero{
     display:flex !important;
