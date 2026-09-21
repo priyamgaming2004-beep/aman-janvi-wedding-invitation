@@ -116,7 +116,12 @@ section{position:relative}.story,.events,.family,.gallery,.venue,.countdown{padd
 .reveal{opacity:0;transform:translateY(35px);transition:opacity .9s ease,transform .9s ease}.reveal.visible{opacity:1;transform:none}
 @media(max-width:900px){
  .nav{height:58px;padding:0 18px}.nav nav{display:none}.nav__hashtag{display:none}.nav__brand{font-size:21px}
- .hero__content{margin:0;padding:90px 24px 60px}.hero__photo{background-position:78% center;background-size:cover}.hero__veil{background:linear-gradient(0deg,#07130fdd 0%,#07130f55 55%,#07130f22 100%)}
+ .hero__content{margin:0;padding:90px 24px 60px}.hero__photo{
+   background-image:url("hero-mobile.png");
+   background-position:center center;
+   background-size:cover;
+   background-repeat:no-repeat;
+}.hero__veil{background:linear-gradient(0deg,#07130fdd 0%,#07130f55 55%,#07130f22 100%)}
  .quote-band{height:90px}.quote-band p{font-size:21px}
  .story,.events,.family,.gallery,.venue,.countdown{padding:80px 20px}.section-heading{margin-bottom:45px}.section-heading h2{font-size:48px}
  .story-grid{display:flex;flex-direction:column;gap:30px}.story-card--large{height:500px;width:100%}.story-copy{order:2;padding-top:0}.story-card--small{order:3;margin:0;width:80%;height:330px}.story-panorama{margin-top:60px;height:360px}.story-panorama__text strong{font-size:43px}
@@ -188,7 +193,7 @@ section{position:relative}.story,.events,.family,.gallery,.venue,.countdown{padd
 
 
 
-/* FINAL REFERENCE HERO â€” IMAGE BACKGROUND + LIVE LEFT TEXT */
+/* FINAL REFERENCE HERO — IMAGE BACKGROUND + LIVE LEFT TEXT */
 .hero{
   min-height:100svh !important;
   position:relative !important;
