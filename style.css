@@ -202,7 +202,7 @@ section{position:relative}.story,.events,.family,.gallery,.venue,.countdown{padd
   inset:0 !important;
   width:100% !important;
   height:100% !important;
-  background-image:url("assets/images/hero-reference.png") !important;
+  background-image:url("hero-reference.png") !important;
   background-size:cover !important;
   background-position:center center !important;
   opacity:1 !important;
