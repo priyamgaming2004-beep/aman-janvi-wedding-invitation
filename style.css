@@ -261,9 +261,9 @@ section{position:relative}.story,.events,.family,.gallery,.venue,.countdown{padd
   }
   .hero__photo{
     inset:0 !important;
-    width:100% !important;
+    width:169% !important;
     height:100% !important;
-    background-position:center center !important;
+    background-position:right center !important;
   }
   .hero__veil{
     background:
